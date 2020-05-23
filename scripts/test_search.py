@@ -27,7 +27,7 @@ class TestSearch():
         self.search_page.input_content(text)
         # 点击返回
         self.search_page.click_back()
-        assert 0
+
 
     @pytest.mark.parametrize("text", data_with_key("test_search1"))
     def test_search1(self, text):
